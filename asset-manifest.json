@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactDevOps/static/css/main.40b5b92b.chunk.css",
+    "main.js": "/ReactDevOps/static/js/main.b3e3b55d.chunk.js",
+    "main.js.map": "/ReactDevOps/static/js/main.b3e3b55d.chunk.js.map",
+    "runtime-main.js": "/ReactDevOps/static/js/runtime-main.d12327da.js",
+    "runtime-main.js.map": "/ReactDevOps/static/js/runtime-main.d12327da.js.map",
+    "static/js/2.b68c8303.chunk.js": "/ReactDevOps/static/js/2.b68c8303.chunk.js",
+    "static/js/2.b68c8303.chunk.js.map": "/ReactDevOps/static/js/2.b68c8303.chunk.js.map",
+    "index.html": "/ReactDevOps/index.html",
+    "static/css/main.40b5b92b.chunk.css.map": "/ReactDevOps/static/css/main.40b5b92b.chunk.css.map",
+    "static/js/2.b68c8303.chunk.js.LICENSE.txt": "/ReactDevOps/static/js/2.b68c8303.chunk.js.LICENSE.txt",
+    "static/media/DevOpstools.46a44404.png": "/ReactDevOps/static/media/DevOpstools.46a44404.png",
+    "static/media/sony-headphone.58b69369.jpg": "/ReactDevOps/static/media/sony-headphone.58b69369.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d12327da.js",
+    "static/js/2.b68c8303.chunk.js",
+    "static/css/main.40b5b92b.chunk.css",
+    "static/js/main.b3e3b55d.chunk.js"
+  ]
+}
