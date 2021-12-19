@@ -1,12 +1,13 @@
 import React from "react";
 import { AdminLayout } from "../../../layouts";
-import { TableProducts, Product, HeadersTable } from "../.././../components/";
+import { TableUsers, Product, HeadersTable } from "../../../components";
 import "../../../styles/pages/Product.sass";
-import { dataProducts } from "../../../data/dataProducts";
-const data = dataProducts;
-const titles = ["Product ID", "Name", "Category", "Brand"];
+import { dataUsers } from "../../../data/dataUsers";
+const data = dataUsers;
 
-const Products = () => {
+const titles = ["User ID", "Name", "Last name", "Email", "Gender", "Phone"];
+
+const Users = () => {
   return (
     <AdminLayout>
       <div className="products">
@@ -15,7 +16,7 @@ const Products = () => {
         </div>
         <table className="table-data">
           <HeadersTable titles={titles} />
-          <TableProducts data={data} />
+          <TableUsers data={data} />
         </table>
       </div>
       <Product />
@@ -23,5 +24,4 @@ const Products = () => {
   );
 };
 
-export { Products };
- 
+export { Users };

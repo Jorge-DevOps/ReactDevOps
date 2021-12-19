@@ -3,14 +3,17 @@ import { BsTrashFill } from "react-icons/bs";
 import { FaEdit } from "react-icons/fa";
 import { GrView } from "react-icons/gr";
 
-const TableProducts = ({ data }) => {
+
+const TableUsers = ({ data }) => {
   return data.map((data, key) => {
     return (
-      <tbody key={key}>
+      <tbody className="table-data-body" key={key}>
         <td className="table-data-colunm">{data.id}</td>
-        <td className="table-data-colunm">{data.name}</td>
-        <td className="table-data-colunm">{data.Category}</td>
-        <td className="table-data-colunm">{data.brand}</td>
+        <td className="table-data-colunm">{data.first_name}</td>
+        <td className="table-data-colunm">{data.last_name}</td>
+        <td className="table-data-colunm">{data.email}</td>
+        <td className="table-data-colunm">{data.gender}</td>
+        <td className="table-data-colunm">{data.phone}</td>
         <td className="table-data-colunm">
           <FaEdit />
         </td>
@@ -25,4 +28,4 @@ const TableProducts = ({ data }) => {
   });
 };
 
-export default TableProducts;
+export {TableUsers};

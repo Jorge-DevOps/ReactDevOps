@@ -1,8 +1,9 @@
-export { Menu } from './Menu/Menu'
-export { MenuLink } from './MenuLink/MenuLink'
-export { Header } from './Header/Header'
-export { Table } from './Table/Table'
-export { Product } from './Product/Product'
-export { Button } from './Button/Button'
-
-
+export { Menu } from "./Menu/Menu";
+export { MenuLink } from "./MenuLink/MenuLink";
+export { Header } from "./Header/Header";
+export { HeadersTable } from "./Table/HeadersTable/HeadersTable";
+export { TableUsers } from "./Table/Users/TableUsers";
+export { TableProducts } from "./Table/Products/TableProducts";
+export { TableInventary } from "./Table/Inventary/TableInventory";
+export { Product } from "./Product/Product";
+export { Button } from "./Button/Button";
